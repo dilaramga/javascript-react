@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazona</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="grid-container">
+            <div class="header">
+                <div class="brand">
+                    <button class="hamburger-icon" onClick="showmenu()">&#9776;</button>
+                    <a href="#">amazona</a>
+                </div>
+                <div class="header-links">
+                    <a href="#">Cart</a>
+                    <a href="#">SignIn</a>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <h1>Shopping Categories</h1>
+                <button class="close-btn" onClick="closemenu()">X</button>
+                <ul>
+                    <li>Pants</li>
+                    <li>Shoes</li>
+                </ul>
+            </aside>
+
+            <div class="main">
+               <div class="content">
+                   <ul class="products">
+                       <li>
+                           <div class="product">
+                               <img src="images/d1.jpg" alt="shirtone" class="product-image">
+                               <div class="product-name">
+                                   <a href="">Slim shirtone</a> 
+                               </div>
+                               <div class="product-brand">Nike</div>
+                               <div class="product-price">£60</div>
+                               <div class="product-rating">4.5 star (10 ratings)</div>
+                           </div>
+                       </li>
+                       <li>
+                        <div class="product">
+                            <img src="images/d1.jpg" alt="shirtone" class="product-image">
+                            <div class="product-name">
+                                <a href="">Slim shirtone</a> 
+                            </div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">£60</div>
+                            <div class="product-rating">4.5 star (10 ratings)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="images/d1.jpg" alt="shirtone" class="product-image">
+                            <div class="product-name">
+                                <a href="">Slim shirtone</a> 
+                            </div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">£60</div>
+                            <div class="product-rating">4.5 star (10 ratings)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="images/d1.jpg" alt="shirtone" class="product-image">
+                            <div class="product-name">
+                                <a href="">Slim shirtone</a> 
+                            </div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">£60</div>
+                            <div class="product-rating">4.5 star (10 ratings)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="images/d1.jpg" alt="shirtone" class="product-image">
+                            <div class="product-name">
+                                <a href="">Slim shirtone</a> 
+                            </div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">£60</div>
+                            <div class="product-rating">4.5 star (10 ratings)</div>
+                        </div>
+                    </li>
+                   </ul>
+               </div>
+            </div>
+            <div class="footer">
+                All rights reserved
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+                   function showmenu(){
+            document.querySelector(".sidebar").classList.add('sidebar-open');
+        }
+
+        function closemenu(){
+            document.querySelector(".sidebar").classList.remove('sidebar-open');
+        }
+        </script>
+        
+    </body>
+</html>
